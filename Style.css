@@ -1,0 +1,112 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+    vertical-align: 100%;
+    font-size: 100%;
+}
+
+body {
+   background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+.trs-tex_text p{
+    color: white;
+}
+
+.trs-tex_text h2{
+    color:white;
+}
+.trs-tex_text h1 {
+ font-size: 50px;
+ color:white;
+ font-family:  Helvetica;
+ 
+ 
+
+}
+
+.trs-text_text-wrapper {
+   background-color: black;
+   margin:auto;
+  
+   width: 90%;
+  
+   
+}
+.trs-tex_text{
+    float: left;text-align: left;
+   
+}
+
+
+
+.trs-tex_text, .imagen{
+    width: 45%;
+    height: auto;overflow: hidden;
+    display: inline-flexbox;
+}
+
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 62px;
+    background: #121212;
+    z-index: 100;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.navbar a { 
+    display: block;
+    padding: 20px 20px;
+    color: blanchedalmond;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.logo a {
+    display: block;
+    padding: 20px 20 px;
+    color:blanchedalmond;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navbar a:hover{
+    background: orange;
+}
+
+
+.price{
+   display: center;
+   background-color: rgb(168, 163, 163);
+}
+
+.price h2 {
+    display:center;
+    text-align: center;
+    font-size: 300%;
+   
+}
+
+.contacto{
+    background-color: white;
+    text-align: center;
+}
+
+.contacto h3 {
+   font-size: 300%;
+}
